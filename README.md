@@ -1,0 +1,4 @@
+osm
+===
+
+scripts con openstreetmap
