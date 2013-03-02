@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; /* Base font family for most elements */
+    font-size: 15px; /* Base size for all elements; other size definitions relates to this */
+    background-color: #ffffff;
+    background: url(../img/cuadricula.png) 0 0 repeat;
+    margin: 0;
+    padding: 0;
+}
+header{
+	margin: 0;
+    height: 35px;
+    cursor: pointer;
+}
+article{
+    width: 750px;
+    margin: 0 auto 0 auto;
+    background-color: #ffffff;
+}
+
+section {
+	float: left;
+	padding: 2px;
+	clear: both;
+	margin-top:10px;
+	width: 100%;
+}
+section.doscolumnas{
+	width: 550px;
+}
+
+footer{ 
+    clear: both;
+	text-align: right;
+	width:100%;
+	color:#bbb
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    padding: 0;
+    margin: 0px;
+}
+h1{
+    font-size: 25px;
+    border-bottom: 1px solid #000;
+}
+
+label{
+	display: block;
+	font-weight: bold;
+	clear: both;
+}
+
+p{
+	margin:10px 0px;
+}
+
+input, textarea, select{
+    width: 100%;
+    border: 1px solid #AAAAAA;
+	font-size: 15px;
+	margin-bottom: 15px;
+	padding-left: 4px;
+	font-family: arial;
+}
+div#map{
+	border: 1px solid #CCCCCC;
+    clear: both;
+    float: left;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+a.boton {
+	background-color:#fe1a00;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+a.boton:hover {
+	background-color:#ce0100;
+}
+a.boton:active {
+	position:relative;
+	top:1px;
+}
+span.small{
+    font-size: 12px;
+ 	font-weight: normal;
+ 	margin-left: 3px;
+}

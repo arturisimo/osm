@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html lang="es" >
+	<head>
+		<title>Geolocalización con Nominatim</title>
+		<script type="text/javascript" src="../libjs/jquery.js"> </script>
+		<script type="text/javascript" src="../libjs/openlayer/OpenLayers.js"> </script>
+		<script type="text/javascript" src="geo-osm.js"> </script>
+		<link href="../css/test.css" rel="stylesheet" />
+	</head>
+	<body>
+		<article>
+		    <header></header>	
+			<section>
+	        	<h1>Geolocalización con Open Street Map <span class="small"> <a href="http://jquery.com" target="_blank">jquery</a> + <a href="http://openlayers.org" target="_blank">openlayers</a> + <a href="http://wiki.openstreetmap.org/wiki/Nominatim" target="_blank">nominatim</a></span></h1>
+	        	<div style="width:500px; margin:20px;" >
+		        	<form id='form_geo' name='form_geo' method='post'>
+						<label>Dirección</label>
+						<input value='Lavapiés' name='direccion' id='direccion' required />
+						
+						<p> <strong>Longitud:</strong> <span id="id_longitud" name="id_longitud" > -3.700907700000016 </span> |
+			        		<strong>Latitud:</strong> <span id="id_latitud" name="id_latitud" > 40.4085123 </span> |
+			        		<strong>Ubicación:</strong> <span id='id_ciudad' > Lavapiés </span>
+		        		</p>
+							
+						<div id="map"></div>
+						
+						<p><a href="#" id='b_checkgeo' class="boton">Aceptar</a></p>
+					</form>
+				</div>
+			</section>
+		    <footer>
+		    	<p>
+		    	</p>
+		    </footer>
+	    </article>
+	</body>
+</html>
